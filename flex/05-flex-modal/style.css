@@ -64,3 +64,29 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+.right-side {
+  display:flex;
+  flex-flow: column;
+  row-gap: 10px;
+  
+}
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+}
+.flex-container{
+  display: flex;
+  gap: 15px;
+  margin: 15px;
+  align-items: flex-start;
+}
+.icon {
+flex: 0 0 auto;
+}
+h3{
+  margin-block-end: 0px;
+  margin-block-start: 0px;
+}
